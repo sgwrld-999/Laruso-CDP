@@ -1,6 +1,6 @@
-# Laruso-CDP: DL-Powered Car Dealership Platform 🚗
+# Laruso-CDP: Car Dealership Platform 🚗
 
-Laruso-CDP is an end-to-end, full-stack Car Dealership Platform built using the MERN stack. It provides a seamless experience for users to browse, buy, sell, and service both new and used cars. The platform integrates an DL-powered recommendation system for personalised car suggestions and features a real-time admin dashboard for efficient inventory and request management.
+Laruso-CDP is an end-to-end, full-stack Car Dealership Platform built using the MERN stack. It provides a seamless experience for users to browse, buy, sell, and service both new and used cars. The platform integrates a powered recommendation system for personalised car suggestions and features a real-time admin dashboard for efficient inventory and request management.
 
 ---
 
@@ -20,15 +20,6 @@ Laruso-CDP is an end-to-end, full-stack Car Dealership Platform built using the 
 
 ---
 
-## 🧠 AI Recommendation System
-
-The recommendation engine is trained on user browsing history, car preferences, and market trends to deliver personalised suggestions. Key components:
-- **Hybrid Model**: Combines collaborative filtering and content-based filtering.
-- **Technologies**: TensorFlow/Keras, Pandas, NumPy, Scikit-learn
-- **Model Output**: Ranked car listings tailored to each user.
-
----
-
 ## 💻 Tech Stack
 
 | Layer          | Technology Used           |
@@ -36,7 +27,6 @@ The recommendation engine is trained on user browsing history, car preferences, 
 | Frontend       | React.js, Bootstrap, Axios |
 | Backend        | Node.js, Express.js        |
 | Database       | MongoDB (Mongoose)         |
-| AI Integration | TensorFlow, Keras          |
 | Authentication | JWT, Bcrypt.js             |
 | Payments       | Razorpay / Stripe API      |
 
@@ -44,7 +34,6 @@ The recommendation engine is trained on user browsing history, car preferences, 
 
 ## 📊 Performance Metrics (Simulated Estimates)
 
-- **Recommendation Accuracy**: DL suggestions show strong alignment with user interest during demos.
 - **Transaction Flow**: Smooth UX and secure payment flows allow consistent task completion.
 - **Admin Panel Efficiency**: Real-time updates reduce request approval time significantly.
 - **Inventory Management**: Admin dashboard shows faster processing vs manual workflows.
@@ -65,10 +54,6 @@ Laruso-CDP/
 │   ├── routes/
 │   ├── controllers/
 │   └── utils/
-├── recommendation_service/          # Recommendation System (Python)
-│   ├── model/
-│   ├── training/
-│   └── inference/
 ├── config/
 ├── .env
 ├── package.json
@@ -99,12 +84,6 @@ npm install
 npm start
 ```
 
-### 4. Train/Run AI Model (Optional)
-```bash
-cd ../recommedation_service
-python app.py   # Train model
-python app.py # Run recommendation
-```
 
 ---
 
